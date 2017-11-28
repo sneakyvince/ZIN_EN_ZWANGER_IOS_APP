@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5613F05B22D0C1BC9F6783E1 /* Pods_APHRODITE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D64C2AB1C382CFBBB649E6 /* Pods_APHRODITE.framework */; };
+		BF1BACD91D1AF27F00CA40FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF1BACD81D1AF27F00CA40FD /* GoogleService-Info.plist */; };
+		BFBC2ED31D0502D800091952 /* UITabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC2ED21D0502D800091952 /* UITabBarViewController.swift */; };
+		BFBC2ED51D0599DA00091952 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC2ED41D0599DA00091952 /* DetailsTableViewController.swift */; };
+		BFBC2ED91D08A50800091952 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC2ED81D08A50800091952 /* QRViewController.swift */; };
+		BFBC2EDB1D08A99500091952 /* InteressesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC2EDA1D08A99500091952 /* InteressesViewController.swift */; };
+		BFBC2EDD1D08AA5900091952 /* NietGekoppeldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBC2EDC1D08AA5900091952 /* NietGekoppeldViewController.swift */; };
+		BFC00B781D002A4100BFDFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC00B771D002A4100BFDFDE /* AppDelegate.swift */; };
+		BFC00B7A1D002A4100BFDFDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC00B791D002A4100BFDFDE /* ViewController.swift */; };
+		BFC00B7F1D002A4100BFDFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC00B7E1D002A4100BFDFDE /* Assets.xcassets */; };
+		BFC00B821D002A4100BFDFDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC00B801D002A4100BFDFDE /* LaunchScreen.storyboard */; };
+		BFC00B8D1D002A4100BFDFDE /* APHRODITETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC00B8C1D002A4100BFDFDE /* APHRODITETests.swift */; };
+		BFC00B981D002A4100BFDFDE /* APHRODITEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC00B971D002A4100BFDFDE /* APHRODITEUITests.swift */; };
+		BFCF964B1D1C0E2C003D2647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCF964A1D1C0E2C003D2647 /* Main.storyboard */; };
+		BFEC62BA1D01922B00DFCA8F /* VraagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC62B91D01922B00DFCA8F /* VraagViewController.swift */; };
+		BFEC62BC1D0196CB00DFCA8F /* AntwoordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC62BB1D0196CB00DFCA8F /* AntwoordViewController.swift */; };
+		BFEC62BE1D01B50500DFCA8F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEC62BD1D01B50500DFCA8F /* ChatViewController.swift */; };
+		BFF13CC11D19482D0054888C /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13CC01D19482D0054888C /* TutorialViewController.swift */; };
+		BFF13CC31D1948520054888C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF13CC21D1948520054888C /* LoginViewController.swift */; };
+		F51E32D61D0AE5BB00B69697 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51E32D51D0AE5BB00B69697 /* CardsViewController.swift */; };
+		F51E32D81D0AE5E300B69697 /* DraggableViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51E32D71D0AE5E300B69697 /* DraggableViewBackground.swift */; };
+		F51E32DA1D0AE60500B69697 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51E32D91D0AE60500B69697 /* DraggableView.swift */; };
+		F51E32DC1D0AE62800B69697 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51E32DB1D0AE62800B69697 /* OverlayView.swift */; };
+		F59C17661D0AD01D0005A042 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C17651D0AD01D0005A042 /* Data.swift */; };
+		F59C17681D0AD6630005A042 /* updateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C17671D0AD6630005A042 /* updateDelegate.swift */; };
+		F5A4DEEC1D13FEF800FE10C3 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A4DEEB1D13FEF800FE10C3 /* KDCircularProgress.swift */; };
+		F5C41BAD1D0972F7004C9561 /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C41BAC1D0972F7004C9561 /* ScanQRViewController.swift */; };
+		F5C41BAF1D0982B1004C9561 /* InteressesVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C41BAE1D0982B1004C9561 /* InteressesVragen.swift */; };
+		F5D25C4B1D09860D00BA5B59 /* VraagVanDeDag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D25C4A1D09860D00BA5B59 /* VraagVanDeDag.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC00B891D002A4100BFDFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC00B6C1D002A4100BFDFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC00B731D002A4100BFDFDE;
+			remoteInfo = APHRODITE;
+		};
+		BFC00B941D002A4100BFDFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC00B6C1D002A4100BFDFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC00B731D002A4100BFDFDE;
+			remoteInfo = APHRODITE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053D7E3D3B4C05039B53097E /* Pods-APHRODITE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APHRODITE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APHRODITE/Pods-APHRODITE.debug.xcconfig"; sourceTree = "<group>"; };
+		27D64C2AB1C382CFBBB649E6 /* Pods_APHRODITE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APHRODITE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3777DAC7A0585B2BA427429D /* Pods-APHRODITE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APHRODITE.release.xcconfig"; path = "Pods/Target Support Files/Pods-APHRODITE/Pods-APHRODITE.release.xcconfig"; sourceTree = "<group>"; };
+		BF1BACD81D1AF27F00CA40FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFBC2ED21D0502D800091952 /* UITabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarViewController.swift; sourceTree = "<group>"; };
+		BFBC2ED41D0599DA00091952 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		BFBC2ED81D08A50800091952 /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		BFBC2EDA1D08A99500091952 /* InteressesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteressesViewController.swift; sourceTree = "<group>"; };
+		BFBC2EDC1D08AA5900091952 /* NietGekoppeldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NietGekoppeldViewController.swift; sourceTree = "<group>"; };
+		BFC00B741D002A4100BFDFDE /* APHRODITE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APHRODITE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC00B771D002A4100BFDFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC00B791D002A4100BFDFDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFC00B7E1D002A4100BFDFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC00B811D002A4100BFDFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC00B831D002A4100BFDFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC00B881D002A4100BFDFDE /* APHRODITETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APHRODITETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC00B8C1D002A4100BFDFDE /* APHRODITETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APHRODITETests.swift; sourceTree = "<group>"; };
+		BFC00B8E1D002A4100BFDFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC00B931D002A4100BFDFDE /* APHRODITEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APHRODITEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC00B971D002A4100BFDFDE /* APHRODITEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APHRODITEUITests.swift; sourceTree = "<group>"; };
+		BFC00B991D002A4100BFDFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCF964A1D1C0E2C003D2647 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BFEC62B91D01922B00DFCA8F /* VraagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VraagViewController.swift; sourceTree = "<group>"; };
+		BFEC62BB1D0196CB00DFCA8F /* AntwoordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AntwoordViewController.swift; sourceTree = "<group>"; };
+		BFEC62BD1D01B50500DFCA8F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BFF13CC01D19482D0054888C /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = SOURCE_ROOT; };
+		BFF13CC21D1948520054888C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		F51E32D51D0AE5BB00B69697 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		F51E32D71D0AE5E300B69697 /* DraggableViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableViewBackground.swift; sourceTree = "<group>"; };
+		F51E32D91D0AE60500B69697 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		F51E32DB1D0AE62800B69697 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		F59C17651D0AD01D0005A042 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F59C17671D0AD6630005A042 /* updateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = updateDelegate.swift; sourceTree = "<group>"; };
+		F5A4DEEB1D13FEF800FE10C3 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		F5C41BAC1D0972F7004C9561 /* ScanQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		F5C41BAE1D0982B1004C9561 /* InteressesVragen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteressesVragen.swift; sourceTree = "<group>"; };
+		F5D25C4A1D09860D00BA5B59 /* VraagVanDeDag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VraagVanDeDag.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC00B711D002A4100BFDFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5613F05B22D0C1BC9F6783E1 /* Pods_APHRODITE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC00B851D002A4100BFDFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC00B901D002A4100BFDFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360EBB201EDF6A2888682EFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				053D7E3D3B4C05039B53097E /* Pods-APHRODITE.debug.xcconfig */,
+				3777DAC7A0585B2BA427429D /* Pods-APHRODITE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		695D337EF7A4B8E3DCD81DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27D64C2AB1C382CFBBB649E6 /* Pods_APHRODITE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3658631D193AC3004D65B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF13CC01D19482D0054888C /* TutorialViewController.swift */,
+				BFF13CC21D1948520054888C /* LoginViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BF36586E1D193AC3004D65B4 /* ChatChat */ = {
+			isa = PBXGroup;
+			children = (
+				BF3658631D193AC3004D65B4 /* Controller */,
+			);
+			name = ChatChat;
+			path = "../../../../Downloads/razeware-firebase-chat-master 2/ChatChat";
+			sourceTree = "<group>";
+		};
+		BF3658871D193B1F004D65B4 /* ChatChat */ = {
+			isa = PBXGroup;
+			children = (
+				BF36586E1D193AC3004D65B4 /* ChatChat */,
+			);
+			name = ChatChat;
+			sourceTree = "<group>";
+		};
+		BFC00B6B1D002A4100BFDFDE = {
+			isa = PBXGroup;
+			children = (
+				BFC00B761D002A4100BFDFDE /* APHRODITE */,
+				BFC00B8B1D002A4100BFDFDE /* APHRODITETests */,
+				BFC00B961D002A4100BFDFDE /* APHRODITEUITests */,
+				BFC00B751D002A4100BFDFDE /* Products */,
+				360EBB201EDF6A2888682EFA /* Pods */,
+				695D337EF7A4B8E3DCD81DDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC00B751D002A4100BFDFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC00B741D002A4100BFDFDE /* APHRODITE.app */,
+				BFC00B881D002A4100BFDFDE /* APHRODITETests.xctest */,
+				BFC00B931D002A4100BFDFDE /* APHRODITEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC00B761D002A4100BFDFDE /* APHRODITE */ = {
+			isa = PBXGroup;
+			children = (
+				BFC00B771D002A4100BFDFDE /* AppDelegate.swift */,
+				BFC00B791D002A4100BFDFDE /* ViewController.swift */,
+				BFBC2ED21D0502D800091952 /* UITabBarViewController.swift */,
+				BFCF964A1D1C0E2C003D2647 /* Main.storyboard */,
+				BF3658871D193B1F004D65B4 /* ChatChat */,
+				F5175CFD1D0AF4A600DB21BB /* Vraag van de dag */,
+				F5175CFF1D0AF53900DB21BB /* Interesses */,
+				F5175D001D0AF54E00DB21BB /* Koppelen */,
+				F5175CFE1D0AF50200DB21BB /* Chat */,
+				BFC00B7E1D002A4100BFDFDE /* Assets.xcassets */,
+				BFC00B801D002A4100BFDFDE /* LaunchScreen.storyboard */,
+				BF1BACD81D1AF27F00CA40FD /* GoogleService-Info.plist */,
+				BFC00B831D002A4100BFDFDE /* Info.plist */,
+			);
+			path = APHRODITE;
+			sourceTree = "<group>";
+		};
+		BFC00B8B1D002A4100BFDFDE /* APHRODITETests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC00B8C1D002A4100BFDFDE /* APHRODITETests.swift */,
+				BFC00B8E1D002A4100BFDFDE /* Info.plist */,
+			);
+			path = APHRODITETests;
+			sourceTree = "<group>";
+		};
+		BFC00B961D002A4100BFDFDE /* APHRODITEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC00B971D002A4100BFDFDE /* APHRODITEUITests.swift */,
+				BFC00B991D002A4100BFDFDE /* Info.plist */,
+			);
+			path = APHRODITEUITests;
+			sourceTree = "<group>";
+		};
+		F5175CFD1D0AF4A600DB21BB /* Vraag van de dag */ = {
+			isa = PBXGroup;
+			children = (
+				F5D25C4A1D09860D00BA5B59 /* VraagVanDeDag.swift */,
+				F59C17651D0AD01D0005A042 /* Data.swift */,
+				F59C17671D0AD6630005A042 /* updateDelegate.swift */,
+				BFEC62B91D01922B00DFCA8F /* VraagViewController.swift */,
+				BFEC62BB1D0196CB00DFCA8F /* AntwoordViewController.swift */,
+			);
+			name = "Vraag van de dag";
+			sourceTree = "<group>";
+		};
+		F5175CFE1D0AF50200DB21BB /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				BFBC2ED41D0599DA00091952 /* DetailsTableViewController.swift */,
+				BFEC62BD1D01B50500DFCA8F /* ChatViewController.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		F5175CFF1D0AF53900DB21BB /* Interesses */ = {
+			isa = PBXGroup;
+			children = (
+				F5C41BAE1D0982B1004C9561 /* InteressesVragen.swift */,
+				F51E32D51D0AE5BB00B69697 /* CardsViewController.swift */,
+				BFBC2EDA1D08A99500091952 /* InteressesViewController.swift */,
+				F51E32D71D0AE5E300B69697 /* DraggableViewBackground.swift */,
+				F51E32D91D0AE60500B69697 /* DraggableView.swift */,
+				F51E32DB1D0AE62800B69697 /* OverlayView.swift */,
+				F5A4DEEB1D13FEF800FE10C3 /* KDCircularProgress.swift */,
+			);
+			name = Interesses;
+			sourceTree = "<group>";
+		};
+		F5175D001D0AF54E00DB21BB /* Koppelen */ = {
+			isa = PBXGroup;
+			children = (
+				F5C41BAC1D0972F7004C9561 /* ScanQRViewController.swift */,
+				BFBC2ED81D08A50800091952 /* QRViewController.swift */,
+				BFBC2EDC1D08AA5900091952 /* NietGekoppeldViewController.swift */,
+			);
+			name = Koppelen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC00B731D002A4100BFDFDE /* APHRODITE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC00B9C1D002A4100BFDFDE /* Build configuration list for PBXNativeTarget "APHRODITE" */;
+			buildPhases = (
+				4DFE72B4E0DFD10DE02FAFEF /* 📦 Check Pods Manifest.lock */,
+				BFC00B701D002A4100BFDFDE /* Sources */,
+				BFC00B711D002A4100BFDFDE /* Frameworks */,
+				BFC00B721D002A4100BFDFDE /* Resources */,
+				688C4D0B53FD0FD20AA6BE79 /* 📦 Embed Pods Frameworks */,
+				87992518FEB1152AF79AC944 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APHRODITE;
+			productName = APHRODITE;
+			productReference = BFC00B741D002A4100BFDFDE /* APHRODITE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC00B871D002A4100BFDFDE /* APHRODITETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC00B9F1D002A4100BFDFDE /* Build configuration list for PBXNativeTarget "APHRODITETests" */;
+			buildPhases = (
+				BFC00B841D002A4100BFDFDE /* Sources */,
+				BFC00B851D002A4100BFDFDE /* Frameworks */,
+				BFC00B861D002A4100BFDFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC00B8A1D002A4100BFDFDE /* PBXTargetDependency */,
+			);
+			name = APHRODITETests;
+			productName = APHRODITETests;
+			productReference = BFC00B881D002A4100BFDFDE /* APHRODITETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFC00B921D002A4100BFDFDE /* APHRODITEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC00BA21D002A4100BFDFDE /* Build configuration list for PBXNativeTarget "APHRODITEUITests" */;
+			buildPhases = (
+				BFC00B8F1D002A4100BFDFDE /* Sources */,
+				BFC00B901D002A4100BFDFDE /* Frameworks */,
+				BFC00B911D002A4100BFDFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC00B951D002A4100BFDFDE /* PBXTargetDependency */,
+			);
+			name = APHRODITEUITests;
+			productName = APHRODITEUITests;
+			productReference = BFC00B931D002A4100BFDFDE /* APHRODITEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC00B6C1D002A4100BFDFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vincent van der Palen";
+				TargetAttributes = {
+					BFC00B731D002A4100BFDFDE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XR39S7R8EN;
+					};
+					BFC00B871D002A4100BFDFDE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BFC00B731D002A4100BFDFDE;
+					};
+					BFC00B921D002A4100BFDFDE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BFC00B731D002A4100BFDFDE;
+					};
+				};
+			};
+			buildConfigurationList = BFC00B6F1D002A4100BFDFDE /* Build configuration list for PBXProject "APHRODITE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC00B6B1D002A4100BFDFDE;
+			productRefGroup = BFC00B751D002A4100BFDFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC00B731D002A4100BFDFDE /* APHRODITE */,
+				BFC00B871D002A4100BFDFDE /* APHRODITETests */,
+				BFC00B921D002A4100BFDFDE /* APHRODITEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC00B721D002A4100BFDFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC00B821D002A4100BFDFDE /* LaunchScreen.storyboard in Resources */,
+				BF1BACD91D1AF27F00CA40FD /* GoogleService-Info.plist in Resources */,
+				BFC00B7F1D002A4100BFDFDE /* Assets.xcassets in Resources */,
+				BFCF964B1D1C0E2C003D2647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC00B861D002A4100BFDFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC00B911D002A4100BFDFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DFE72B4E0DFD10DE02FAFEF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		688C4D0B53FD0FD20AA6BE79 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APHRODITE/Pods-APHRODITE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87992518FEB1152AF79AC944 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APHRODITE/Pods-APHRODITE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC00B701D002A4100BFDFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51E32D61D0AE5BB00B69697 /* CardsViewController.swift in Sources */,
+				BFF13CC11D19482D0054888C /* TutorialViewController.swift in Sources */,
+				BFEC62BC1D0196CB00DFCA8F /* AntwoordViewController.swift in Sources */,
+				F5C41BAF1D0982B1004C9561 /* InteressesVragen.swift in Sources */,
+				BFC00B7A1D002A4100BFDFDE /* ViewController.swift in Sources */,
+				F51E32DC1D0AE62800B69697 /* OverlayView.swift in Sources */,
+				BFEC62BA1D01922B00DFCA8F /* VraagViewController.swift in Sources */,
+				BFEC62BE1D01B50500DFCA8F /* ChatViewController.swift in Sources */,
+				F59C17681D0AD6630005A042 /* updateDelegate.swift in Sources */,
+				BFBC2ED91D08A50800091952 /* QRViewController.swift in Sources */,
+				BFF13CC31D1948520054888C /* LoginViewController.swift in Sources */,
+				BFBC2EDD1D08AA5900091952 /* NietGekoppeldViewController.swift in Sources */,
+				F59C17661D0AD01D0005A042 /* Data.swift in Sources */,
+				BFC00B781D002A4100BFDFDE /* AppDelegate.swift in Sources */,
+				F5C41BAD1D0972F7004C9561 /* ScanQRViewController.swift in Sources */,
+				F51E32DA1D0AE60500B69697 /* DraggableView.swift in Sources */,
+				BFBC2ED51D0599DA00091952 /* DetailsTableViewController.swift in Sources */,
+				F5D25C4B1D09860D00BA5B59 /* VraagVanDeDag.swift in Sources */,
+				F5A4DEEC1D13FEF800FE10C3 /* KDCircularProgress.swift in Sources */,
+				F51E32D81D0AE5E300B69697 /* DraggableViewBackground.swift in Sources */,
+				BFBC2ED31D0502D800091952 /* UITabBarViewController.swift in Sources */,
+				BFBC2EDB1D08A99500091952 /* InteressesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC00B841D002A4100BFDFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC00B8D1D002A4100BFDFDE /* APHRODITETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC00B8F1D002A4100BFDFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC00B981D002A4100BFDFDE /* APHRODITEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC00B8A1D002A4100BFDFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC00B731D002A4100BFDFDE /* APHRODITE */;
+			targetProxy = BFC00B891D002A4100BFDFDE /* PBXContainerItemProxy */;
+		};
+		BFC00B951D002A4100BFDFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC00B731D002A4100BFDFDE /* APHRODITE */;
+			targetProxy = BFC00B941D002A4100BFDFDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFC00B801D002A4100BFDFDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC00B811D002A4100BFDFDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC00B9A1D002A4100BFDFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC00B9B1D002A4100BFDFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC00B9D1D002A4100BFDFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053D7E3D3B4C05039B53097E /* Pods-APHRODITE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = APHRODITE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VincEnterprise1337.APHRODITE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BFC00B9E1D002A4100BFDFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3777DAC7A0585B2BA427429D /* Pods-APHRODITE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = APHRODITE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VincEnterprise1337.APHRODITE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BFC00BA01D002A4100BFDFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = APHRODITETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VincEnterprise.APHRODITETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APHRODITE.app/APHRODITE";
+			};
+			name = Debug;
+		};
+		BFC00BA11D002A4100BFDFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = APHRODITETests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VincEnterprise.APHRODITETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APHRODITE.app/APHRODITE";
+			};
+			name = Release;
+		};
+		BFC00BA31D002A4100BFDFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = APHRODITEUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VincEnterprise.APHRODITEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = APHRODITE;
+			};
+			name = Debug;
+		};
+		BFC00BA41D002A4100BFDFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = APHRODITEUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VincEnterprise.APHRODITEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = APHRODITE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC00B6F1D002A4100BFDFDE /* Build configuration list for PBXProject "APHRODITE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC00B9A1D002A4100BFDFDE /* Debug */,
+				BFC00B9B1D002A4100BFDFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC00B9C1D002A4100BFDFDE /* Build configuration list for PBXNativeTarget "APHRODITE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC00B9D1D002A4100BFDFDE /* Debug */,
+				BFC00B9E1D002A4100BFDFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC00B9F1D002A4100BFDFDE /* Build configuration list for PBXNativeTarget "APHRODITETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC00BA01D002A4100BFDFDE /* Debug */,
+				BFC00BA11D002A4100BFDFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC00BA21D002A4100BFDFDE /* Build configuration list for PBXNativeTarget "APHRODITEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC00BA31D002A4100BFDFDE /* Debug */,
+				BFC00BA41D002A4100BFDFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC00B6C1D002A4100BFDFDE /* Project object */;
+}
